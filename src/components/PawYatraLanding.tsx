@@ -289,7 +289,7 @@ export default function PawYatraLanding() {
               </ul>
             </div>
             <div className="relative h-72 rounded-3xl overflow-hidden shadow order-1 md:order-2">
-              <Image src="/Images/Virtual_Fences.PNG" alt="Activity & rest" fill className="object-cover" />
+              <Image src="/Images/Virtual_Fences.png" alt="Activity & rest" fill className="object-cover" />
             </div>
           </div>
 
