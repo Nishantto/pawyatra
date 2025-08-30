@@ -52,7 +52,7 @@ export default function PawYatraLanding() {
 
     {/* Center: Links */}
     <nav className="hidden md:flex gap-6 text-sm font-medium text-slate-700">
-      {["Features", "How It Works", "Specs", "Pricing", "FAQ"].map((item, i) => (
+      {["Features", "Get the PawYatra Tracker", "Our Mission", "How It Works", "Specs", "FAQ"].map((item, i) => (
         <a
           key={i}
           href={`#${item.toLowerCase().replace(/ /g, "")}`}
@@ -192,9 +192,9 @@ export default function PawYatraLanding() {
 </section>
 
       {/* How It Works + Mission */}
-<section id="how" className="relative overflow-hidden py-24 bg-gradient-to-br from-green-50 via-white to-blue-50">
+<section id="howitworks" className="relative overflow-hidden py-24 bg-gradient-to-br from-green-50 via-white to-blue-50">
   {/* background glow */}
-  <div className="pointer-events-none absolute -top-32 -left-32 h-96 w-96 rounded-full bg-green-200/40 blur-3xl" />
+  <div id="ourmission" className="pointer-events-none absolute -top-32 -left-32 h-96 w-96 rounded-full bg-green-200/40 blur-3xl" />
   <div className="pointer-events-none absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-200/40 blur-3xl" />
 
   <div className="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-14 items-start">
@@ -259,7 +259,7 @@ export default function PawYatraLanding() {
 
 
       {/* Feature Panels */}
-      <section className="py-20 bg-white">
+      <section id ="features"className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 space-y-16">
           {/* Panel 1: Live Tracking */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -335,7 +335,7 @@ export default function PawYatraLanding() {
       </section>
 
       {/* Press / Featured In */}
-    <section id="press" className="py-20 bg-slate-50">
+    <section id="asfeaturedin" className="py-20 bg-slate-50">
   <div className="max-w-6xl mx-auto px-4">
     <h2 className="text-center text-2xl md:text-3xl font-bold mb-10">
       As Featured In
@@ -413,7 +413,7 @@ export default function PawYatraLanding() {
 
 
       {/* Device Shop CTA */}
-      <section id="shop" className="py-20 bg-slate-50">
+      <section id="getthepawyatratracker" className="py-20 bg-slate-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Get the PawYatra Tacker</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
