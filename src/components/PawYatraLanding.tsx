@@ -438,7 +438,7 @@ export default function PawYatraLanding() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Pricing 
       <section id="pricing" className="py-20 bg-slate-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-12">Pricing</h2>
@@ -460,7 +460,7 @@ export default function PawYatraLanding() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ */}
       <section id="faq" className="py-20 bg-white">
